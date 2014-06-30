@@ -1,3 +1,9 @@
 var connect = require('connect');
+var serveStatic = require('serve-static');
 
-module.exports = connect;
+var staticServer = function(root) {
+	return connect()
+			.use(serveStatic(root));
+}
+
+module.exports = staticServer;
