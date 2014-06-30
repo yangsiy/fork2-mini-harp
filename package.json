@@ -1,0 +1,17 @@
+{
+  "name": "mini-harp",
+  "version": "0.0.0",
+  "description": "A mini webserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Siyu Yang",
+  "license": "MIT",
+  "bin": {
+    "mini-harp": "./bin/mini-harp.js"
+  },
+  "dependencies": {
+    "connect": "^3.0.1"
+  }
+}
